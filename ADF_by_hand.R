@@ -1,4 +1,4 @@
-#ADF test
+#Augmented Dickey-Fuller test by hand.
 k <- 6 ##設定6:(會有五個落後期做為差分後的解釋變數)
 
 ####失業率####
