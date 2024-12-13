@@ -31,7 +31,7 @@ lm_f <- lm(y~x)
 summary(lm_f) 
 
 
-##看時間趨勢圖
+##看時間趨勢圖:初步檢查stationary
 plot(T[, 1], log(y), type="l", xlab="Time", ylab="犯罪率(十萬/件")
 plot(T[, 1], T[, 3], type="l", xlab="Time", ylab="破獲率")
 plot(T[, 1], T[, 4], type="l", xlab="Time", ylab="失業率")
